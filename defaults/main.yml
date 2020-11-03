@@ -8,8 +8,6 @@ icecast_relay_password:
 icecast_admin_user: icecast-admin
 icecast_admin_password: 
 icecast_hostname: example.com
-icecast_user: icecast
-icecast_group: icecast
 
 icecast_accesslog: access.log
 icecast_errorlog: error.log
