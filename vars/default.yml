@@ -1,5 +1,8 @@
 ---
 icecast_config_file: /etc/icecast.xml
+icecast_basedir: /usr/share/icecast
+icecast_logdir: /var/log/icecast
+
 icecast_package: icecast
 icecast_user: icecast
 icecast_group: icecast

@@ -8,6 +8,9 @@ icecast_admin_user: icecast-admin
 icecast_admin_password: 
 icecast_hostname: example.com
 
+icecast_webroot: "{{ icecast_basedir }}/web"
+icecast_adminroot: "{{ icecast_basedir }}/admin"
+
 icecast_accesslog: access.log
 icecast_errorlog: error.log
 icecast_loglevel: 3

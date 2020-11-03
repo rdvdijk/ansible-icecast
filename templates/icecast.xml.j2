@@ -97,10 +97,10 @@
 
 {% endfor %}
   <paths>
-    <basedir>/usr/share/icecast</basedir>
-    <logdir>/var/log/icecast</logdir>
-    <webroot>/usr/share/icecast/web</webroot>
-    <adminroot>/usr/share/icecast/admin</adminroot>
+    <basedir>{{ icecast_basedir }}</basedir>
+    <logdir>{{ icecast_logdir }}</logdir>
+    <webroot>{{ icecast_webroot }}</webroot>
+    <adminroot>{{ icecast_adminroot }}</adminroot>
     <pidfile>/var/run/icecast.pid</pidfile>
     {% if icecast_ssl_certificate is defined %}
     <ssl-certificate>{{ icecast_ssl_certificate }}</ssl-certificate>
