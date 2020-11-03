@@ -2,3 +2,4 @@
 icecast_package: icecast2
 icecast_user: icecast2
 icecast_group: icecast
+icecast_service: icecast2
