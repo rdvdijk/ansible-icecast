@@ -1,2 +1,3 @@
 ---
 # vars file for ansible-icecast
+icecast_package: icecast
