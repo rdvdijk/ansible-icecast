@@ -1,4 +1,5 @@
 ---
+icecast_config_file: /etc/icecast.xml
 icecast_package: icecast
 icecast_user: icecast
 icecast_group: icecast

@@ -1,5 +1,4 @@
 ---
-icecast_config_file: /etc/icecast.xml
 icecast_location: Earth
 icecast_admin_email: icemaster@localhost
 icecast_source_password: 
