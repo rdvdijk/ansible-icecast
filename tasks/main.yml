@@ -23,7 +23,7 @@
     group: "{{ icecast_group }}"
     mode: 0640
   notify:
-    - "reload {{ icecast_service }}"
+    - reload icecast
 
 - name: Enable Icecast service
   service:

@@ -2,5 +2,5 @@
 # Reload icecast after a config file update
 - name: reload icecast
   service:
-    name: icecast
+    name: "{{ icecast_service }}"
     state: restarted
